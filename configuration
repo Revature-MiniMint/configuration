@@ -1,8 +1,8 @@
 eureka:
     client:
         serviceUrl:
-            defaultZone: https://minimintserverregistryserver.azurewebsites.net:443/eureka
-        register-with-eureka: true
-        fetch-registry: true
+            defaultZone: https://minimintserverregistryserver.azurewebsites.net:443/eureka/
+        registerWithEureka: true
+        fetchRegistry: true
     instance:
         hostname: localhost
