@@ -1,7 +1,7 @@
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://minimintserverregistryserver.azurewebsites.net:80/eureka
+            defaultZone: https://minimintserverregistryserver.azurewebsites.net:443/eureka
         register-with-eureka: true
         fetch-registry: true
     instance:
